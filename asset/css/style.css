@@ -1,17 +1,27 @@
 html {
 	color: #312f2e;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #ecf0f5;
+	background: #ecf0f5;
 }
 body {
 	margin: 0;
+	padding-bottom: 50px;
 }
-header {
+header, footer {
 	text-align: center;
-	background-color: #3c8dbc;
+	background: #3c8dbc;
 	line-height: 50px;
 	color: #fff;
 	font-size: 20px;
+}
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	font-size: 14px;
+  background: #fff;
+  color: #3c8dbc;
+  border-top: 1px solid #d2d6de;
 }
 h2, h3 {
 	text-align: center;
