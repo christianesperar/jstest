@@ -15,3 +15,12 @@ https://www.dropbox.com/s/6aalosn3hk1i1ku/jstest-wireframe.jpg?dl=0
 * Feel free to assign colours and fonts as you consider it fit. 
 * If you need to make any design correction, please explain the reasons.
 * Please explain any design decisions made.
+
+## Tools
+* Browser (Chrome with developer tools to emualate mobile view, FF)
+* JSHINT to check JavaScript code
+* Sublime Text 3 for text editor
+
+## Design
+* Not use a CSS framework since not on specs
+* Remove padding on product to maximize space on mobile (can add padding if on table to desktop view)
