@@ -24,3 +24,4 @@ https://www.dropbox.com/s/6aalosn3hk1i1ku/jstest-wireframe.jpg?dl=0
 ## Design
 * Not use a CSS framework since not on specs
 * Remove padding on product to maximize space on mobile (can add padding if on table to desktop view)
+* Add loader to know that the appication is still brewing the results
