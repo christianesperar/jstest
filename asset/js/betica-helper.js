@@ -14,9 +14,14 @@ var beticaHelper = (function ($) {
     });
   }
 
+  function hideLoader() {
+    $('.spinner').hide();  
+  }
+
   return {
     init: function (info) {
       renderItems(info.items);
+      hideLoader();
     }
   };
 })(jQuery);
