@@ -2,11 +2,17 @@
   <head>
     <title>Betica Shop</title>
     <meta charset="utf-8">
-    <meta name="author" content="YOUR NAME">
+    <meta name="author" content="Christian Esperar">
+
+    <link href="asset/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div id="content"></div>
+    <header><b>BETICA</b>Shop</header>
+    
+    <section class="content"></section>
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="asset/js/betica-helper.js"></script>
     <script type="text/javascript">
       var info = {
         "items": {
@@ -46,11 +52,8 @@
           ]
         }
       };
-       
-       
-      // enter your code here
-      // render the items in the info using native Javascript or jQuery
 
+      beticaHelper.init(info);
     </script>
 </body>
 </html>
